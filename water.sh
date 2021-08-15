@@ -1,5 +1,5 @@
 echo 1. what is in the directory
-ls -a
+ls -la
 echo
 echo 2. is git installed
 git --version
