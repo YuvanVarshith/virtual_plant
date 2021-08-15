@@ -10,3 +10,4 @@ whoami
 echo 5. how is the disk status
 df
 echo 6. the environment variables
+env
