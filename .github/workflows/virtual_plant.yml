@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: watering the plants
-        run: ./water.sh
+        run: sh ./water.sh
