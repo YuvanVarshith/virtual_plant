@@ -2,8 +2,8 @@ name: Virtual Plant
 
 on:
   schedule:
-    -cron: '1 1 * * *'
-  on: [push]
+  -cron: '1 1 * * *'
+  push:
 
 jobs:
   water:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+    - uses: actions/checkout@v2
 
-      - name: watering the plants
-        run: ./water.sh
+    - name: watering the plants
+      run: ./water.sh
