@@ -1,0 +1,10 @@
+name: Virtual Plant
+
+on:
+  schedule:
+    -cron: '1 1 * * *'
+
+jobs:
+  water:
+    name: water_plant
+    runs-on: ubuntu-latest
